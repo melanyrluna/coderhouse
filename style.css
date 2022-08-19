@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    border:  0;
+}
+
+.class-menu{
+    width: 100%;
+    min-width: 5em;
+    background: linear-gradient(220.55deg, #24CFC5 0%, #001C63 100%);
+    color: white;
+    padding: 1em 2em;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+   
+    
+}
+
+.class-menu .ul{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style:none;
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    
+}
+.class-menu .li{
+    margin: 0 1em;
+    
+}
+.class-menu .a {
+    text-decoration: none;
+    list-style-type: none;
+}
+body{
+     background: linear-gradient(220.55deg, #24CFC5 0%, #001C63 100%);
+     font-family: 'Frank Ruhl Libre', serif;
+     color: white;
+     margin: 1em;
+}
+.main{
+    margin: 0 0 1em;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+.seccion{
+    width: 100%;
+    min-height: 100vh;
+
+    margin: 1em 0em;
+    padding: 2em;
+
+
+
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+
+    border-bottom: 1px solid white;
+
+}
+.seccion .info{
+    font-size: 1.2em;
+    animation: aparecer1 2s ease 1 both;
+
+}
+
+.seccion .ul{
+    margin: 2em 0 0;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+.seccion  .ul .li{
+
+    margin: 0 1em;
+}
+.seccion  .ul  .a{
+    border: 1px solid rgba(218, 211, 211, 0.4);
+    border-radius: 15%;
+    padding: 1em 1em 1em;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: all .5s ease;
+
+}
+.seccion  .ul  .a:hover{
+   border-color: rgb(255, 255, 255);
+   background-color: black;
+   color: white;
+}
+
+.seccion .h2{
+    font-family: var(--tipo-titular);
+    font-weight: 600;
+    font-size: 5em;
+}
+.seccion .h3{
+    font-family: var(--tipo-titular);
+    font-size: 3em;
+    line-height: 1em;
+
+}
+
+/*.seccion{
+    width: 100;
+    min-width: 100vh;
+    padding: 2em;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.seccion .info{
+    font-size: 1.7em;
+}
+.seccion .h2{
+    font-weight: 600;
+    font-size: 1.7em;
+    
+
+}*/
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.img1{
+    width: 20em;
+    height: 20em;
+    margin:auto;
+}
+
+
+/*-----------------------contacto----------------------*/
+.titulo-contacto{
+  
+    font-size: 1.7em;
+    padding: 1em;
+
+}
+.titulo-color{
+    color: darkred;
+}
+
+
+.formulario{
+    
+    padding-left: 1em;
+    width: 50%;
+    float: left;
+   
+
+    
+   
+}
+.formulario-derecha{
+    line-height: 1.5em;
+    font-size: 1.3em;
+}
+.color-jc{
+    color: darkred;
+}
+
+
+/*---------------------quienes-somos-----------------*/
+.titulo{
+    font-size: 1.7em;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+
+.quienes-somos{
+    display: grid;
+    gap: .5em;
+    grid-auto-rows: 1fr 1fr;
+    /*grid-template-columns: 1fr 1fr;*/
+    grid-template-columns: repeat(auto-fill, minmax(30rem, 1fr));
+}
+
+.imagen-izquierda{
+    /*width: 50%;
+    float: left;
+    margin-left: 1em;*/
+}
+.texto-derecha{
+    /*width: 47%;
+    float: right;*/
+}
+
+/*---------------nuestros-productos-------------*/
+.titulo-productos{
+    font-size: 1.7em;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+/*
+.producto1{
+  
+    padding-left: 1em;
+    margin: auto;
+    
+    
+
+}
+*/
+.producto1-img{
+    width: 450px;
+  height: 300px;
+  background: #CCC;
+  overflow: hidden;
+}
+
+.contenedor {
+    display: grid;
+    gap: .5em;
+    grid-auto-rows: 22rem;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+   
+    
+    
+    
+}
+
+.contenedor div{
+    padding: 1em;
+   
+}
+    
+
+
+.contenedor div:hover{
+    border: 1px solid black;
+    
+}
+.producto1 img{
+    width: auto;
+    height: auto;
+}
