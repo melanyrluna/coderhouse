@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./bootstrap.min (1).css">
     <title>TROMPAS JC</title>
 </head>
 <body>
@@ -21,26 +22,28 @@
     <div class="titulo-contacto">
         <h1>contac<span class="titulo-color">tanos</span></h1>
     </div>
-    <div class="formulario">
-        <form action="contact.php" method="post">
-            tu nombre<br>
-            <input type="text" name="cf_name"><br>
-            tu e-mail<br>
-            <input type="text" name="cf_email"><br>
-            Dejanos tu mensaje<br>
-            <textarea name="" id="" cols="30" rows="10"></textarea>
-            <button type="submit"> 
-                Enviar
-
-            </button>
+  
+    <form>
+        <div class="form-group">
+          <label for="exampleFormControlInput1">tu email</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="tuemail@gmail.com">
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlInput1">tu nombre</label>
+          <input type="tu nombre" class="form-control" id="exampleFormControlInput1" placeholder="minombre">
             
-        </form>
-    </div>
-    <div class="formulario-derecha">
-        <h2>Trompas <span class="color-jc">JC</span> </h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum perspiciatis ut facilis labore provident, nulla nesciunt aperiam animi aspernatur nobis ipsum amet in dicta optio recusandae quas quibusdam quam illum?</p>
-        <p>12345678</p>
-        <p>trompasjc@gmail.com</p>
-    </div>
+          
+          </select>
+        </div>
+        
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1"> Escribinos tu consulta</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          <button type="button" class="btn btn-info">Enviar</button>
+        </div>
+      </form>
+ 
 </body>
 </html>
